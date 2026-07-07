@@ -215,6 +215,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  max-width:1200px;
+  padding:10px;
 }
 #hero h1 {
   margin: 0 0 10px 0;
@@ -255,10 +257,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+h3{
+	font-size: 22px;
+	font-weight: bold;
+}
 section {
   padding: 60px 0;
   overflow: hidden;
 }
+
 
 .section-bg {
   background: #f5f8fd;
@@ -275,6 +282,14 @@ section {
   position: relative;
   color: #173b6c;
 }
+.section-title2 h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173bcc;
+}
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -286,7 +301,7 @@ section {
   left: 0;
 }
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
