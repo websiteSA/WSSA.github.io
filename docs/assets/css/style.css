@@ -974,13 +974,22 @@ section {
     display: inline-block;
   }
 }
+
+
+@media screen and (min-width: 900px) {
+	  .hero-container{
+		margin-left:300px;
+	}
+	
+}
+
+
 @media screen and (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
   }
-
 }
 @media screen and (min-width: 1600px) {
   #hero h1 {
@@ -989,4 +998,5 @@ section {
   #hero p {
 	font-size: 30px;
 	}
+	
 }
